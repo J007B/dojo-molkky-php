@@ -23,3 +23,14 @@ $this->assertEquals(8, $molkky->getScore([
 
 1. Écrire dans la méthode `testMolkky()` de la classe `MolkkyTest` les tests qui vérifient la règle du jeu.
 2. Écrire le contenu de la méthode `getScore()`.
+
+## Usage
+
+```php
+composer install
+```
+
+## Test
+```php
+./vendor/bin/phpunit MolkkyTest.php
+```
